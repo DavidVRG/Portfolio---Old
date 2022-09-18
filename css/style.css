@@ -170,6 +170,7 @@ header .btn{
 }
 header .btn:hover{
     box-shadow: 0 0 25px #fefae0;
+    letter-spacing: 1px;
 }
 
 /* MEDIA QUERY */
