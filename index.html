@@ -21,17 +21,17 @@
             </div>
         </div>
         <ul class="dropdown">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">My Projects</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-projects">My Projects</a></li>
         </ul>
     </nav>
     <nav class="desktop-nav">
         <div class="logo"><img src="img/logo.svg" alt="Logo">David Varga</div>
         <ul class="links">
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">My Projects</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-projects">My Projects</a></li>
     </ul>
     </nav>
 
@@ -41,10 +41,108 @@
             <div class="header-content">
                 <div class="ht main-title">Hello Everyone!</div>
                 <div class="ht sub-title">I'm David Varga</div>
-                <button type="button" class="btn">Check my Portfolio<i class="fa-solid fa-arrow-down" style="margin-left: 10px;"></i></button>
+                <a href="#about-me" class="btn">Check my Portfolio<i class="fa-solid fa-arrow-down" style="margin-left: 10px;"></i></a>
             </div>
         </div>
     </header>
+
+    <section class="about-me" id="about-me">
+        <div class="image"><img src="img/discord-avatar.png" alt="Discord"></div>
+        <div class="about-me-text">
+            <h2>About Me</h2>
+            <p>
+                My name is David Varga and I living in Hungary. I am 21 years old.<br>
+                This is my Portfolio, what I created.
+                I learn web development, but I am beginner yet.
+                <strong>My stacks: HTML, CSS, JS, Bootstrap, NodeJS(Express), MongoDB</strong>, and I want to learn React or VueJS.
+            </p>
+            <div class="cards">
+                <div class="card">HTML</div>
+                <div class="card">CSS</div>
+                <div class="card">JS</div>
+                <div class="card">Bootstrap</div>
+                <div class="card">NodeJS</div>
+                <div class="card">MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-projects" id="my-projects">
+        <div class="overlay">
+            <div class="content">
+                <h2>My Projects</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/project1.jpg" alt="Project-1">
+                            <h3>Template Clone 1</h3>
+                            <p>I cloned a free website template. I used only the pictures and svg code. The code is mine!</p>
+                            <div class="buttons">
+                            <a href="https://github.com/DavidVRG/Template-Clone">Source Code</a>
+                            <a href="https://davidvrg.github.io/Template-Clone/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/project2.jpg" alt="Project-2">
+                            <h3>Template Clone 2</h3>
+                            <p>I cloned a free website template. I used only the pictures. The code is mine!</p>
+                            <div class="buttons">
+                            <a href="https://github.com/DavidVRG/Template-Clone-2">Source Code</a>
+                            <a href="https://davidvrg.github.io/Template-Clone-2/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/project3.jpg" alt="Project-3">
+                            <h3>Template Clone 3</h3>
+                            <p>I cloned a free website template. I used only the pictures. The code is mine!</p>
+                            <div class="buttons">
+                            <a href="https://github.com/DavidVRG/Template-Clone-3">Source Code</a>
+                            <a href="https://davidvrg.github.io/Template-Clone-3/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/project4.jpg" alt="Travel Blog">
+                            <h3>Travel Blog</h3>
+                            <p>This is My template.</p>
+                            <div class="buttons">
+                            <a href="https://github.com/DavidVRG/TravelBlog">Source Code</a>
+                            <a href="https://davidvrg.github.io/TravelBlog/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/project5.jpg" alt="Rock Paper Scissor">
+                            <h3>Rock Paper Scissor</h3>
+                            <p>This is a Rock Paper Scissor game.</p>
+                            <div class="buttons">
+                            <a href="https://github.com/DavidVRG/RockPaperScissors-TheOdinProject">Source Code</a>
+                            <a href="https://davidvrg.github.io/RockPaperScissors-TheOdinProject/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/project6.jpg" alt="Landing Page">
+                            <h3>Landing Page</h3>
+                            <p>This is a basic Landing page.</p>
+                            <div class="buttons">
+                            <a href="https://github.com/DavidVRG/LandingPage-TheOdinProject">Source Code</a>
+                            <a href="https://davidvrg.github.io/LandingPage-TheOdinProject/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="script/app.js"></script>
 </body>
